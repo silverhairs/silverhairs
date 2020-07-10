@@ -2,7 +2,7 @@
 	<br>
 	<br>
 	<br>
-	<img src="./toshiro.gif" width="auto" height="auto">
+	<img src="./toshiro.gif" width="auto" height="auto" alt="Toshiro Hitsugaya">
 	<br>
 	<br>
 	<br>
