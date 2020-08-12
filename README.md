@@ -3,8 +3,8 @@
 	<br>
 	<br>
 	<p align="center">
-	<img src="https://github.com/silverhairs/silverhairs/blob/master/ken.gif" width="300" height="auto" alt="Kaneki">
-	<img src="https://github.com/silverhairs/silverhairs/blob/master/juuzou.gif" width="300" height="auto" alt="Juuzou">
+	<img src="https://github.com/silverhairs/silverhairs/blob/master/ken.gif" width="200" height="auto" alt="Kaneki">
+	<img src="https://github.com/silverhairs/silverhairs/blob/master/juuzou.gif" width="200" height="auto" alt="Juuzou">
 	</p>
 	<br>
 	<br>
@@ -27,5 +27,5 @@ I am a Computer Science student at [University of Kigali](uok.ac.rw) and a big t
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=silverhairs&layout=compact" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=silverhairs&layout=compact" height="195" />
 </a>
