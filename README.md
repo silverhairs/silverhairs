@@ -11,7 +11,7 @@
 
 I am a Computer Science student at [University of Kigali](uok.ac.rw) and a big techie dude who loves Sci-Fi, Video Games, Artificial Intelligence and of course coding. You can contact me on my [twitter](twitter.com/iamboriskayi) or by email on <a href="mailto:boriskayienzo@gmail.com">boriskayienzo@gmail.com</a>. If I am being slow to respond, I am probably watching an Anime or writing some python script.
 
-## Here is my stack
+## Ask me about:
 
 <div align="center">
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png"></code>
@@ -19,6 +19,7 @@ I am a Computer Science student at [University of Kigali](uok.ac.rw) and a big t
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
+</div><br>
 
  
  <a href="https://github.com/anuraghazra/github-readme-stats">
