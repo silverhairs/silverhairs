@@ -2,17 +2,17 @@
 <div align="center">
 	<br>
 	<br>
-	<br>
 	<p align="center">
 	<img src="https://github.com/silverhairs/silverhairs/blob/master/ken.gif" width="300" height="auto" alt="Kaneki">
 	<img src="https://github.com/silverhairs/silverhairs/blob/master/juuzou.gif" width="300" height="auto" alt="Juuzou">
 	</p>
 	<br>
 	<br>
-	<br>
 
-Computer Science student at [University of Kigali](https://uok.ac.rw/) in love with technology in general. Ask me about Python, Linux, Flutter and VueJS.
-I like writing scripts to [Automate the boring stuff](https://automatetheboringstuff.com/).
+I am a Computer Science student at [University of Kigali](uok.ac.rw) and a big techie dude who loves Sci-Fi, Video Games, Artificial Intelligence and of course coding. You can contact me on my [twitter](twitter.com/iamboriskayi) or by email on <a href="mailto:boriskayienzo@gmail.com">boriskayienzo@gmail.com</a>. If I am being slow to respond, I am probably watching an Anime or writing some python script.
+
+## Here is my stack
+
 <div align="center">
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/flutter/flutter.png"></code>
@@ -20,14 +20,6 @@ I like writing scripts to [Automate the boring stuff](https://automatetheborings
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="50" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png"></code>
 
-
-## Describing myself in few words
- - Coding
- - Animes/Mangas
- - Video Games
- - Artificial Intelligence
- - Walking (not dead)
- - Drawing
  
  <a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=silverhairs&show_icons=true&include_all_commits=true" alt="Boris' github stats" />
