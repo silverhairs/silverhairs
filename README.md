@@ -1,4 +1,4 @@
-# Hi there, I am Boris!
+<div align="center"> <h1>Hi there, I am Boris!</h1> </div>
 <div align="center">
 	<br>
 	<br>
@@ -8,8 +8,12 @@
 	</p>
 	<br>
 	<br>
+I am a Software Developer.<br>
+	
+- 🧑‍🍳 Currently working on: **Cross-plateform Mobile Dev**
+- 📖️ Currently learning: **Go** <br>
 
-I am a Computer Science student at [University of Kigali](uok.ac.rw) and a big techie dude who loves Sci-Fi, Video Games, Artificial Intelligence and of course coding. You can contact me on my [twitter](twitter.com/iamboriskayi) or by email on <a href="mailto:boriskayienzo@gmail.com">boriskayienzo@gmail.com</a>. If I am being slow to respond, I am probably watching an Anime or writing some python script.
+I am active on [Twitter](twitter.com/iamboriskayi) and [LinkedIn](linkedin.com/in/iamboriskayi). You can also send me an [email](mailto:boriskayienzo@gmail.com). If I am slow to respond, I am probably watching an Anime, reading a Manga or writing a script to automate some boring stuff
 
 ## Ask me about:
 
