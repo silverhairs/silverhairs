@@ -10,7 +10,7 @@
 	<br>
 I am a Software Developer.<br>
 	
-- 🧑‍🍳 Currently working on: **Cross-plateform Mobile Dev**
+- 🧑‍🍳 Currently working on: **Exploring Flutter web and desktop**
 - 📖️ Currently learning: **Go** <br>
 
 I am active on [Twitter](twitter.com/iamboriskayi) and [LinkedIn](linkedin.com/in/iamboriskayi). You can also send me an [email](mailto:boriskayienzo@gmail.com). If I am slow to respond, I am probably watching an Anime, reading a Manga or writing a script to automate some boring stuff
