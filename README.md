@@ -7,7 +7,7 @@
 
 - 🔭 I’m currently working on **a bunch of web technologies**
 
-- 🌱 I’m currently learning **Design Patterns**
+- 🌱 I’m currently learning **React Native**
 
 - 👯 I’m looking to collaborate **on Everything Flutter**
 
