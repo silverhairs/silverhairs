@@ -54,7 +54,7 @@ export default function Home() {
     }, 300000);
   }, []);
   return (
-    <Layout>
+    <Layout title="Boris Kayi | Web and Mobile Developer">
       <div className="container">
         <div className="profile-head">
           <div className="picture">

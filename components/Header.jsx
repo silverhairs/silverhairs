@@ -17,7 +17,7 @@ export default function Header() {
           </a>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/silverbook">The Silverbook</Link>
         </li>
       </ul>
     </div>

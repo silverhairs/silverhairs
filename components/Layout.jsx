@@ -4,7 +4,7 @@ export default function Layout(props) {
   return (
     <div className="layout">
       <Head>
-        <title>Boris Kayi | Web and Mobile Developer</title>
+        <title>{props.title}</title>
         <meta
           name="description"
           content="Boris Kayi is Software Engineer specialized in web and mobile technologies. He gives life to your ideas by using the language of the gods."
