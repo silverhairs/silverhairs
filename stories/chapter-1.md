@@ -1,7 +1,7 @@
 ---
-title: "Megiddo"
+title: "CHAPTER 1: Megiddo"
 date: "July 24, 2021"
-except: "Having good grades will help you land a good job. LOL!"
+excerpt: "College is just a big party! but you're not invited"
 ---
 
 "College is just a big party". I will never forgive Hollywood movies for lying to me. For me, it was more like [the battle of Megiddo](https://www.youtube.com/watch?v=uZcgkT_zAIA); between my previous conception of school (having good grades will help you land a good job) and what the world is showing me about the tech industry.
@@ -22,4 +22,5 @@ I wanted more of that sorcery, so went back to my C Programming lecture, showed 
 
 While I was enjoying playing with cool technologies, others were studying, that's how I accumulated 12 courses on my waiting list because, after my suspension, I took like 3 additional months before coming back to school. I had to study days and nights for those missed courses, yet my attendance was still questionable (silly me).
 
-Here we are, my colleagues are graduating in 5 months, but I have to wait until next year. My only regret is that I didn't drop out earlier, I would have probably had time to learn even more javascript; that language is so confusing. By the way, I no longer have any interest in continuing, maybe I should just drop out now.
+Here we are, my colleagues are graduating in 5 months, but I have to wait until next year; do I have to though🌝️?
+My only regret is that I didn't drop out earlier, I would have probably had time to learn even more javascript; that language can be so confusing sometimes. Maybe I should just drop out now.
