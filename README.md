@@ -1,5 +1,5 @@
 ## Hi 👋, I'm Boris
-I am a Software Engineer at [Deriv](https://deriv.com)
+I am a Mobile Engineer at [Deriv](https://deriv.com)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
 - 🌱 I’m currently learning Design Patterns
