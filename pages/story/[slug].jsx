@@ -30,8 +30,15 @@ export default function Story({ frontmatter, slug, content }) {
         <div className="body">
           <div dangerouslySetInnerHTML={{ __html: marked(content) }}></div>
         </div>
+        <a
+          className="btn"
+          href="https://github.com/silverhairs/silverhairs/discussions/categories/stories-comments"
+          target="_blank"
+          rel="noreferrer"
+        >
+          New comment
+        </a>
         <div className="footer">
-          <h3>Contact me</h3>
           <div className="socials">
             <ul>
               {socialIcons.map((item, index) => {

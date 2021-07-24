@@ -18,3 +18,15 @@ a {
 .container {
   max-width: 60rem;
 }
+.btn {
+  margin: 1rem 1rem 1rem 0;
+  border: 1px solid $light-grey $twitter-blue;
+  padding: 0.8rem;
+  background-color: $blue;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+  &:hover {
+    background-color: $twitter-blue;
+  }
+}
