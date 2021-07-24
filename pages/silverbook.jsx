@@ -18,6 +18,10 @@ export default function Silverbook({ posts }) {
               engineering, you may call it a journal if you want, but The
               Silverbook just sounds cooler; I also talk about other
               non-computer related things.
+            </p>{" "}
+            <p>
+              My writing skills are really really questionable, so please bear
+              with me.
             </p>
             <h2>Stories</h2>
           </div>
