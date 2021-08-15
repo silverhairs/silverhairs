@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Layout from "@components/Layout";
-import profilePic from "@public/me.JPG";
+import profilePic from "@public/me.jpeg";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("projects");
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="bio">
             <h1>{"Hey there! 👋️"}</h1>
             <p className="body">
-              I am Boris Kayi, a Software Engineer who loves playing with mobile
+              I am Boris Kayi, a Software Engineer who loves playing with
               technologies and building beautiful experiences. My superpower is
               transforming ideas into beautiful pieces of art through code. When
               I am away of computers, I try to catch up with the latest episode
@@ -82,9 +82,9 @@ export default function Home() {
                 One Piece
               </Link>{" "}
               (anime life you know✌️). I also love languages, I am currently
-              learning Japanese and Spanish. <br /> I am currently working as a
-              Flutter Developer at Deriv where I help maintaining one of the
-              main mobile products of the company.
+              learning Spanish. <br /> I am currently working as a Flutter
+              Developer at Deriv where I help maintaining one of the main mobile
+              products of the company.
             </p>
           </div>
         </div>
@@ -95,11 +95,11 @@ export default function Home() {
           </h2>
           <ul>
             <li>
-              <span className="emoji">🏠️</span> Living in <b>Kigali</b>
+              <span className="emoji">🏠️</span> Living in <b>Kigali, Rwanda</b>
             </li>
             <li>
               <span className="emoji">📚️</span> Learning about{" "}
-              <b>Design Patterns</b>
+              <b>Decentralized Finance</b>
             </li>
             <li>
               <span className="emoji">💻️</span> Working for{" "}
