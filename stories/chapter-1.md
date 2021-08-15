@@ -20,7 +20,7 @@ I wanted to know more of that sorcery, so I went back to Mr. Katende my C progra
 
 ![game of thrones meme](https://res.cloudinary.com/dgzxnoltd/image/upload/v1627129482/The%20Silverbook/i-choose-violence_aw7eue.jpg)
 
-While I was enjoying playing with cool technologies, others were studying, after my suspension was epired, I took three additional months before coming back to school. That's how I accumulated 12 courses on my waiting list and was obliged to attend classes during the days and the evenings for those missed courses, yet my attendance was still questionable (silly me).
+While I was enjoying playing with cool technologies, others were studying, after my suspension was expired, I took three additional months before coming back to school. That's how I accumulated 12 courses on my waiting list and was obliged to attend classes during the days and the evenings, yet my attendance rate kept being low lol! (don't tell my dad).
 
-I have a lot of friends who actually enjoy and learn a lot from their respective universities, it just didn't work for me, I guess I picked the short straw. My colleagues are graduating in 5 months, but I have to wait until next year (do I have to wait though🌝️?).
-My only regret is that I didn't drop out earlier, I would have probably had more time to learn about some advanced Javascript; that language can be so confusing sometimes. Maybe I should just drop out now.
+I have friends from other universities who actually enjoy school and learn a lot, it just didn't work for me, I picked the short straw maybe (actually, no). My colleagues are graduating in 5 months, but I have to wait until next year (do I have to wait though🌝️?).
+My only regret is that I didn't drop out earlier, I would have probably had more time to learn about some advanced Javascript concepts, that programming language can be so confusing sometimes. Maybe I should just drop out now.
