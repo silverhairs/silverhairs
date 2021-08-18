@@ -1,5 +1,5 @@
 ## Hi 👋, I'm Boris
-I am a Mobile Apps Engineer at [Deriv](https://deriv.com)
+I am a Mobile App Engineer at [Deriv](https://deriv.com)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
 - 🌱 I’m currently learning Spanish
