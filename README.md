@@ -3,7 +3,7 @@ I am a Mobile App Engineer at [Deriv](https://deriv.com)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
 - 🌱 I’m currently learning Spanish
-- 👯 I’m looking to collaborate on dart and flutter projects
+- 👯 I’m looking to collaborate on dart, flutter and swiftUI projects
 - 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev) and [NextJS](https://nextjs.org)
 - 📫 How to reach me boriskayienzo@gmail.com
 - ⚡ Fun fact: I got into computer science because I wanted to build Ironman's suit
