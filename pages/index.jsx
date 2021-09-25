@@ -69,28 +69,33 @@ export default function Home() {
           <div className="bio">
             <h1>{"Hey there! 👋️"}</h1>
             <p className="body">
-              I am Boris Kayi, a Software Engineer who loves playing with
-              technologies and building beautiful experiences. My superpower is
-              transforming ideas into beautiful pieces of art through code. When
-              I am away of computers, I try to catch up with the latest episode
-              of{" "}
+              I am Boris Kayiranga, a Software Engineer who loves playing with
+              technologies and building experiences. When I am away of
+              computers, I try to get closer to them to watch latest episode of{" "}
               <Link
                 href="https://en.wikipedia.org/wiki/One_Piece"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                One Piece
+                One Piece.
               </Link>{" "}
-              (anime life you know✌️). I also love languages, I am currently
-              learning Spanish. <br /> I am currently working as a Flutter
-              Developer at Deriv where I help maintaining one of the main mobile
-              products of the company.
+              I also love art, I used to draw and really enjoyed it, but that
+              was around than 10years ago, I am trying to get back to it. <br />{" "}
+              <br /> I am currently working as a Mobile Application Developer at
+              Deriv, and as an beginner artist at home(wanted to write{" "}
+              <b>
+                {" "}
+                <i>drawer</i>
+              </b>{" "}
+              but
+              <b> artist </b>
+              just sounds cooler).
             </p>
           </div>
         </div>
         <div className="doing-now">
           <h2>
-            {"What I'm doing now"}{" "}
+            {"What I'm doing now"}
             <span className="date">({currentDate()})</span>
           </h2>
           <ul>
@@ -102,7 +107,7 @@ export default function Home() {
               <b>Decentralized Finance</b>
             </li>
             <li>
-              <span className="emoji">💻️</span> Working for{" "}
+              <span className="emoji">💻️</span> Working at{" "}
               <b>
                 <Link href="https://deriv.com">Deriv</Link>
               </b>
@@ -116,7 +121,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="drawers">
-          <h2>My Drawers</h2>
+          <h2>Drawers</h2>
           <div className="tabs">
             <div className="drawers-header">
               <h3
