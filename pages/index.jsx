@@ -82,7 +82,7 @@ export default function Home() {
               I also love art, I used to draw and really enjoyed it, but that
               was around than 10years ago, I am trying to get back to it. <br />{" "}
               <br /> I am currently working as a Mobile Application Developer at
-              Deriv, and as an beginner artist at home(wanted to write{" "}
+              Deriv, and as a beginner artist at home(wanted to write{" "}
               <b>
                 {" "}
                 <i>drawer</i>
