@@ -10,7 +10,6 @@ export default function Home() {
     artist: "...",
     track: "...",
   });
-  const onClickTab = (tab) => setActiveTab(tab);
   const months = [
     "January",
     "February",
@@ -70,8 +69,8 @@ export default function Home() {
             <h1>{"Hey there! 👋️"}</h1>
             <p className="body">
               I am Boris Kayiranga, a Software Engineer who loves playing with
-              technologies and building experiences. When I am away of
-              computers, I try to get closer to them to watch latest episode of{" "}
+              technologies and building experiences. When I am away from
+              computers, I get closer to them and watch latest episode of{" "}
               <Link
                 href="https://en.wikipedia.org/wiki/One_Piece"
                 target="_blank"
@@ -80,9 +79,10 @@ export default function Home() {
                 One Piece.
               </Link>{" "}
               I also love art, I used to draw and really enjoyed it, but that
-              was around than 10years ago, I am trying to get back to it. <br />{" "}
-              <br /> I am currently working as a Mobile Application Developer at
-              Deriv, and as a beginner artist at home(wanted to write{" "}
+              was like 10years ago and right now I have kind of lost it so I am
+              trying to get back to it. <br /> I am currently working as a
+              Mobile Application Developer at Deriv, and as a beginner artist at
+              home(wanted to write{" "}
               <b>
                 {" "}
                 <i>drawer</i>
