@@ -9,6 +9,8 @@ export default function Layout(props) {
           name="description"
           content="Boris Kayi is Software Engineer specialized in web and mobile technologies. He gives life to your ideas by using the language of the gods."
         />
+        <meta property="og:title" content="Boris Kayi, Software Engineer." />
+        <meta property="og:image" content="/me.jpeg" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
