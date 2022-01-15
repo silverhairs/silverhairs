@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import marked from "marked";
+import {marked} from "marked";
 import matter from "gray-matter";
 import Layout from "@components/Layout";
 import { FaLinkedin, FaTwitterSquare, FaGithubSquare } from "react-icons/fa";

@@ -73,8 +73,6 @@ export default function Home() {
               computers, I get closer to them and watch latest episode of{" "}
               <Link
                 href="https://en.wikipedia.org/wiki/One_Piece"
-                target="_blank"
-                rel="noopener noreferrer"
               >
                 One Piece.
               </Link>{" "}
