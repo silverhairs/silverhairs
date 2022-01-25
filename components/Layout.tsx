@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "./Header";
-export default function Layout(props) {
+
+export default function Layout(props: LayoutProps) {
   return (
     <div className="layout">
       <Head>
@@ -19,4 +20,9 @@ export default function Layout(props) {
       <main>{props.children}</main>
     </div>
   );
+}
+
+interface LayoutProps{
+  title:string
+  children: JSX.Element
 }

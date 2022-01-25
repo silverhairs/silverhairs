@@ -19,6 +19,9 @@ export default function Header() {
         <li>
           <Link href="/silverbook">The Silverbook</Link>
         </li>
+        <li>
+          <Link href="/experiments">Experiments</Link>
+        </li>
       </ul>
     </div>
   );

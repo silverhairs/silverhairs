@@ -5,8 +5,8 @@ import Layout from "@components/Layout";
 import profilePic from "@public/me.jpeg";
 
 export default function Home() {
-  const [activeTab, setActiveTab] = useState("projects");
-  const [song, setSong] = useState({
+  const [activeTab, setActiveTab] = useState(DrawerTab.projects);
+  const [song, setSong] = useState<Song>({
     artist: "...",
     track: "...",
   });
@@ -24,17 +24,17 @@ export default function Home() {
     "November",
     "December",
   ];
-  const currentDate = () => {
+  const getCurrentDate = () => {
     const month = months[new Date().getMonth()];
     const year = new Date().getFullYear();
     return `${month} ${year}`;
   };
 
-  const spotifyTrack = () => {
-    fetch("https://api.spotify.com/v1/me/player/currently-playing?market=US", {
+  const fetchSong = () => {
+    fetch("https://api.spotify.com/v1/me/player/currently-playing/", {
       method: "get",
       headers: new Headers({
-        Authorization: `{Bearer BQD1McQUn3fr-58cR4JnCFKLREe4-82_QUCUZzAK3TeUlzgX1biWat_A_LyrbTOjN7YwUy_NfFsuYdwip0Shbw-pqQ6jFHJfQa9ScWP-BNNpWG2J6d2gUpQm0O5asE9Tdnt_UF4hXd79tGOup67xZ3pMPXdv5rs0_p9FH2qfXw`,
+        Authorization: `Basic ${new Buffer('689c4189b9ba49129347ee04d539cb92:9ffb69e4bcc14221afe3ffd37d304ef6').toString('base64')}`,
         "Content-Type": "application/json",
         Accept: "application/json",
       }),
@@ -42,16 +42,16 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => {
         setSong({ track: data.item.name, artist: data.item.artists[0].name });
+        console.log(data);
+        
       })
-      .catch((e) => {});
+      .catch(console.log);
   };
 
   useEffect(() => {
-    spotifyTrack();
-    setTimeout(() => {
-      spotifyTrack();
-    }, 300000);
+    fetchSong();
   }, []);
+
   return (
     <Layout title="Boris Kayi | Web and Mobile Developer">
       <div className="container">
@@ -68,6 +68,8 @@ export default function Home() {
           <div className="bio">
             <h1>{"Hey there! 👋️"}</h1>
             <p className="body">
+              Hi there! I'm Boris Kayi, a software engineer based in Kigali, Rwanda.
+
               I am Boris Kayiranga, a Software Engineer who loves playing with
               technologies and building experiences. When I am away from
               computers, I get closer to them and watch latest episode of{" "}
@@ -94,7 +96,7 @@ export default function Home() {
         <div className="doing-now">
           <h2>
             {"What I'm doing now"}
-            <span className="date">({currentDate()})</span>
+            <span className="date">({getCurrentDate()})</span>
           </h2>
           <ul>
             <li>
@@ -113,8 +115,8 @@ export default function Home() {
             <li>
               <span className="emoji">🎧️</span> Listening to{" "}
               <b>
-                {song.artist} - {song.track}
-              </b>
+                 {song.track}
+              </b> by <b>{song.artist}</b>
             </li>
           </ul>
         </div>
@@ -124,17 +126,17 @@ export default function Home() {
             <div className="drawers-header">
               <h3
                 className={`tab projects ${
-                  activeTab === "projects" ? "active-tab" : ""
+                  activeTab === DrawerTab.projects ? "active-tab" : ""
                 }`}
-                onClick={() => setActiveTab("projects")}
+                onClick={() => setActiveTab(DrawerTab.projects)}
               >
                 Projects
               </h3>
               <h3
                 className={`tab articles ${
-                  activeTab === "articles" ? "active-tab" : ""
+                  activeTab === DrawerTab.aritlces ? "active-tab" : ""
                 }`}
-                onClick={() => setActiveTab("articles")}
+                onClick={() => setActiveTab(DrawerTab.aritlces)}
               >
                 Articles
               </h3>
@@ -145,4 +147,13 @@ export default function Home() {
       </div>
     </Layout>
   );
+}
+
+interface Song{
+  artist :string;
+  track : string;
+}
+
+enum DrawerTab{
+  projects, aritlces
 }
