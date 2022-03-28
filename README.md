@@ -3,7 +3,7 @@
 I am a Mobile App Engineer at [Deriv](https://deriv.com)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
-- 🌱 I’m currently learning Typescript & Rust
+- 🌱 I’m currently learning Rust
 - 👯 I’m looking to collaborate on dart, flutter and swiftUI projects
 - 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev) and [NextJS](https://nextjs.org)
 - 📫 How to reach me boriskayienzo@gmail.com
