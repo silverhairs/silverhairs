@@ -4,6 +4,7 @@ export default function Layout(props) {
   return (
     <div className="layout">
       <Head>
+      <script defer data-domain="silverhairs.dev" src="https://plausible.io/js/plausible.js"></script>
         <title>{props.title}</title>
         <meta
           name="description"
