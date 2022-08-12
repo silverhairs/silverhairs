@@ -6,7 +6,7 @@ I am a Mobile App Engineer at [Deriv](https://deriv.com)
 - 🌱 I’m currently learning Rust
 - 👯 I’m looking to collaborate on dart, flutter and swiftUI projects
 - 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev) and [NextJS](https://nextjs.org)
-- 📫 How to reach me boriskayienzo@gmail.com
+- 📫 How to reach me hello@silverhairs.engineer
 - ⚡ Fun fact: I've watched more 1000 hours of anime (For the moment 😏)
 
 ### Connect with me:
