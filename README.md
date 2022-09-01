@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Boris
 
-I am a Mobile App Engineer at [Deriv](https://deriv.com)
+I am a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
 - 🌱 I’m currently learning Rust
