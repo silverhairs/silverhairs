@@ -3,7 +3,7 @@
 I am a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
 
 - 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
-- 🌱 I’m currently learning Rust
+- 🌱 I’m currently learning about Interpreters
 - 👯 I’m looking to collaborate on dart, flutter and swiftUI projects
 - 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev) and [NextJS](https://nextjs.org)
 - 📫 How to reach me hello@silverhairs.engineer
