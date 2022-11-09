@@ -1,11 +1,10 @@
 ## Hi 👋, I'm Boris
 
-I am a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
+I am a Software Engineer
 
-- 🔭 I’m currently working on [my portfolio website](https://silverhairs.vercel.app/)
-- 🌱 I’m currently learning about Interpreters
-- 👯 I’m looking to collaborate on dart, flutter and swiftUI projects
-- 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev) and [NextJS](https://nextjs.org)
+- 👷 I am currently working as a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
+- 🌱 I’m currently learning about Programming languages, Interpreters and Compilers.
+- 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev), [Spotify Playlists](https://open.spotify.com/user/5lw9eu5uho3vayqahwyysjwzd?si=e8149380f4584290) (I suck at making playlists tho)
 - 📫 How to reach me hello@silverhairs.engineer
 - ⚡ Fun fact: I've watched more 1000 hours of anime (For the moment 😲)
 
