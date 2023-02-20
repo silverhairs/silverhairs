@@ -4,7 +4,7 @@ I am a Software Engineer
 
 - 👷 I am currently working as a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
 - 🌱 I’m currently learning about Interpreters and Compilers.
-- 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev), [Spotify Playlists](https://open.spotify.com/user/5lw9eu5uho3vayqahwyysjwzd?si=e8149380f4584290) (I suck at making playlists tho)
+- 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev), and [Go](https://go.dev)
 - 📫 How to reach me hello@silverhairs.engineer
 - ⚡ Fun fact: I've watched more 1000 hours of anime (For the moment 😲)
 
