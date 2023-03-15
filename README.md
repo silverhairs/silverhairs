@@ -2,7 +2,7 @@
 
 I am a Software Engineer
 
-- 👷 I am currently working as a Senior Mobile Engineer at [Flaconi](https://flaconi.de)
+- 👷 I am currently working as a Senior Software Engineer at [Kitchen Stories](https://kitchenstories.com)
 - 🌱 I’m currently learning about Compilers and Programming Language Design.
 - 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev), and [Go](https://go.dev)
 - 📫 How to reach me hello@silverhairs.engineer
