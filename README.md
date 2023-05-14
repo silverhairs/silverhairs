@@ -2,7 +2,7 @@
 
 I build software
 
-- 👷 I am currently working as a Senior Mobile Engineer at [Kitchen Stories](https://kitchenstories.com)
+- 👷 I am currently working as a Senior Software Engineer at [Kitchen Stories](https://kitchenstories.com)
 - 🌱 I’m currently learning about developer tools.
 - 💬 Ask me about compilers, interpreters, anime, and hip-hop
 - 📫 How to reach me hello@silverhairs.engineer
