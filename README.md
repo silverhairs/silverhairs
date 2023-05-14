@@ -2,9 +2,9 @@
 
 I build software
 
-- 👷 I am currently working as a Senior Software Engineer at [Kitchen Stories](https://kitchenstories.com)
-- 🌱 I’m currently learning about Compilers and Programming Language Design.
-- 💬 Ask me about [Dart](https://dart.dev), [Flutter](https://flutter.dev), and [Go](https://go.dev)
+- 👷 I am currently working as a Senior Engineer at [Kitchen Stories](https://kitchenstories.com)
+- 🌱 I’m currently learning about developer tools.
+- 💬 Ask me about compilers, interpreters, anime, and hip-hop
 - 📫 How to reach me hello@silverhairs.engineer
 - ⚡ Fun fact: I've watched more 1000 hours of anime (For the moment 😲)
 
