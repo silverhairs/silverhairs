@@ -8,6 +8,8 @@ I build software
 - 📫 How to reach me hello@silverhairs.engineer.
 - ⚡ Fun fact: I've watched more 1000 hours of anime (For the moment 😲).
 
+![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=silverhairs&theme=github)
+
 ### Connect with me:
 
 <a href="https://noc.social/@silverhairs" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/mastodon.svg" alt="@silverhairs on mastodon" height="30" width="40" /></a>
