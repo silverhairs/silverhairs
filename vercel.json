@@ -1,0 +1,4 @@
+{
+    "framework": "astro",
+    "packageManager": "yarn@latest"
+}
