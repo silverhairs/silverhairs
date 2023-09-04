@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        monospace: ['Overpass Mono Variable'],
+        monospace: ['Overpass Mono Variable', 'monospace'],
         sans: ['Inter Variable', 'Inter', 'sans-serif'],
       },
     },
