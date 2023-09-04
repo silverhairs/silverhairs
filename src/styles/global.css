@@ -23,6 +23,10 @@
   font-style: normal;
   font-display: swap;
 }
+html, body{
+  height: 100%;
+  margin: 0;
+}
 body {
   font-family:
     "Inter Variable",
@@ -40,11 +44,10 @@ body {
   line-height: 1.7;
   display: flex;
   flex-direction: column;
-  height: 100vh;
   justify-content: space-between;
 }
 main {
-  height: 100%;
+  flex: 1;
   width: 720px;
   max-width: calc(100% - 2em);
   margin: auto;
