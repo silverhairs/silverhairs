@@ -5,6 +5,8 @@ import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import Intro from "../components/Intro.astro";
 import BlogShowcase from "../components/BlogShowcase.astro";
+
+export const prerender = true;
 ---
 
 <!doctype html>
@@ -12,7 +14,11 @@ import BlogShowcase from "../components/BlogShowcase.astro";
     <head>
         <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
     </head>
-    <body>
+    <body
+        class="cf-turnstile"
+        data-sitekey="0x4AAAAAAAJzb24DWiq3HUze"
+        data-callback="javascriptCallback"
+    >
         <Header title={SITE_TITLE} />
         <main>
             <Intro id="intro" />
