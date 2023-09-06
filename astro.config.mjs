@@ -2,12 +2,14 @@ import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
-import vercelEdge from '@astrojs/vercel/edge';
+import vercel from "@astrojs/vercel/serverless";
 
 
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://silverhairs.dev",
   integrations: [mdx(), sitemap(), tailwind()],
-  output: 'server',
-  adapter: vercelEdge(),
+  output: "server",
+  adapter: vercel({
+    edgeMiddleware: true,
+  })
 });
