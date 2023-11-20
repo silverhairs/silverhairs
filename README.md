@@ -1,6 +1,6 @@
 ## Hi 👋, I'm Boris
 
-I build software
+I build stuff
 
 - 👷 I am currently working as a Senior Software Engineer at [Kitchen Stories](https://kitchenstories.com)
 - 🌱 I’m interested in developer tools.
