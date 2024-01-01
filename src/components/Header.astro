@@ -1,0 +1,30 @@
+---
+import { SITE_TITLE } from "../consts";
+---
+
+<header class="flex justify-center items-center py-2 border-b sticky top-0">
+    <nav>
+        <h2
+            class="py-2 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-3xl"
+        >
+            <a href="/">{SITE_TITLE}</a>
+        </h2>
+    </nav>
+    <hr />
+</header>
+<style>
+    header {
+        margin: 0;
+        padding: 0 1em;
+        background: white;
+    }
+    h2 {
+        margin: 0;
+        font-size: 1em;
+    }
+
+    h2 a,
+    h2 a.active {
+        text-decoration: none;
+    }
+</style>

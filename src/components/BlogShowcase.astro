@@ -1,0 +1,40 @@
+---
+import "@fontsource-variable/overpass-mono";
+import { getCollection } from "astro:content";
+import ArticleTile from "./ArticleTile.astro";
+
+const articles = (await getCollection("blog"))
+    .sort((a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf())
+    .reverse()
+    .slice(0, 3);
+---
+
+<section class="py-2">
+    <p class="text-3xl font-extrabold">Latest</p>
+    <ul>
+        {
+            articles.map((article) => (
+                <li class="py-2">
+                    <a
+                        href={`/blog/${article.slug}/`}
+                        class="hover:text-green-700"
+                    >
+                        <ArticleTile
+                            title={article.data.title}
+                            description={article.data.description}
+                            pubDate={article.data.pubDate}
+                        />
+                    </a>
+                </li>
+            ))
+        }
+    </ul>
+    <a href="/blog" class="text-green-700 hover:bg-green-700 hover:text-white"
+        >[Read More]</a
+    >
+</section>
+<style>
+    section {
+        font-family: "Overpass Mono Variable";
+    }
+</style>

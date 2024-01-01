@@ -1,0 +1,13 @@
+extends: "prettier-plugin-astro"
+
+overrides:
+  - files: "*.astro"
+    options:
+      parser: "astro"
+      printWidth: 80
+      tabWidth: 4
+      useTabs: false
+      semi: true
+      bracketSpacing: true
+      arrowParens: "always"
+      trailingComma: "es5"

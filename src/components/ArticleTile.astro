@@ -1,0 +1,41 @@
+---
+interface Props {
+    title: string;
+    description: string;
+    pubDate: Date;
+}
+
+const { title, pubDate, description } = Astro.props;
+---
+
+<div class="py-1 px-2 tile hover:bg-green-100">
+    <div class="leading">
+        <div class="title">
+            <p class="text-xl font-bold">{title}</p>
+        </div>
+        <div class="subtitle">
+            <p class="text-zinc-300">{description}</p>
+        </div>
+    </div>
+    <div class="trailing">
+        <p class="text-sm items-center">{pubDate.toLocaleDateString()}</p>
+    </div>
+</div>
+<style>
+    .tile {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-gap: 10px;
+    }
+    .leading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .trailing {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
