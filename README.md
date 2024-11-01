@@ -2,7 +2,7 @@
 
 I build stuff
 
-- 👷 I am currently working as a Senior Software Engineer at [Kitchen Stories](https://kitchenstories.com)
+- 👷 I am currently working as a Senior Software Engineer at [Monta](https://monta.com)
 - 🌱 I’m interested in developer tools.
 - 💬 Ask me about mobile apps, compilers, and anime.
 - 📫 How to reach me hello@silverhairs.engineer.
