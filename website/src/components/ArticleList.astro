@@ -1,0 +1,39 @@
+---
+import type { Article } from "../lib/articles";
+import { getArticlePath } from "../lib/articles";
+import FormattedDate from "./FormattedDate.astro";
+
+interface Props {
+  articles: Article[];
+  emptyMessage?: string;
+}
+
+const {
+  articles,
+  emptyMessage = "The index is empty for now.",
+} = Astro.props;
+---
+
+{
+  articles.length > 0 ? (
+    <ol class="article-list">
+      {articles.map((article, index) => (
+        <li>
+          <article>
+            <div class="entry-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</div>
+            <div class="entry-copy">
+              <div class="article-list__meta">
+                <FormattedDate date={article.data.publishedAt} compact />
+                {article.data.draft && <span class="draft-label">Draft</span>}
+              </div>
+              <h3><a href={getArticlePath(article)}>{article.data.title}</a></h3>
+              <p>{article.data.description}</p>
+            </div>
+          </article>
+        </li>
+      ))}
+    </ol>
+  ) : (
+    <p class="empty-state">{emptyMessage}</p>
+  )
+}

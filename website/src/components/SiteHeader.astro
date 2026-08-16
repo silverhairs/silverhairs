@@ -1,0 +1,15 @@
+---
+const path = Astro.url.pathname;
+const writingIsCurrent = path.startsWith("/writing");
+---
+
+<header class="site-header">
+  <div class="site-shell site-header__inner">
+    <a class="site-name" href="/" aria-label="Boris Kayi, home">Boris Kayi</a>
+    <nav aria-label="Primary navigation">
+      <a href="/" aria-current={path === "/" ? "page" : undefined}><span>00</span> Home</a>
+      <a href="/writing/" aria-current={writingIsCurrent ? "page" : undefined}><span>01</span> Writing</a>
+      <a href="/about/" aria-current={path.startsWith("/about") ? "page" : undefined}><span>02</span> About</a>
+    </nav>
+  </div>
+</header>

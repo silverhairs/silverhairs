@@ -1,0 +1,19 @@
+---
+interface Props {
+  date: Date;
+  compact?: boolean;
+}
+
+const { date, compact = false } = Astro.props;
+const machineDate = date.toISOString().slice(0, 10);
+const humanDate = compact
+  ? machineDate.replaceAll("-", ".")
+  : new Intl.DateTimeFormat("en", {
+      day: "numeric",
+      month: "long",
+      year: "numeric",
+      timeZone: "UTC",
+    }).format(date);
+---
+
+<time datetime={machineDate}>{humanDate}</time>

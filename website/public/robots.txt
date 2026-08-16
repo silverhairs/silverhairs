@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://silverhairs.dev/sitemap-index.xml

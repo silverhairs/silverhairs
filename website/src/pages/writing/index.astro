@@ -1,0 +1,25 @@
+---
+import ArticleList from "../../components/ArticleList.astro";
+import FolioMark from "../../components/FolioMark.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getArticles } from "../../lib/articles";
+
+const articles = await getArticles();
+---
+
+<BaseLayout
+  title="Writing"
+  description="Essays and notes by Boris Kayi about books, software, energy, urbanism, and everyday observations."
+>
+  <div class="page folio-page">
+    <FolioMark number="01" label="Writing" />
+    <div class="folio-body">
+      <header class="page-header page-header--ruled">
+        <h1>Writing</h1>
+        <p>Essays, observations, and notes on whatever has my attention. Newest first.</p>
+      </header>
+
+      <ArticleList articles={articles} emptyMessage="No entries yet." />
+    </div>
+  </div>
+</BaseLayout>

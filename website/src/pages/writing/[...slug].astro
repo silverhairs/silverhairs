@@ -1,0 +1,52 @@
+---
+import { render, type CollectionEntry } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import FolioMark from "../../components/FolioMark.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getArticles, getArticleSlug } from "../../lib/articles";
+
+export async function getStaticPaths() {
+  const articles = await getArticles();
+
+  return articles.map((article) => ({
+    params: { slug: getArticleSlug(article) },
+    props: { article },
+  }));
+}
+
+interface Props {
+  article: CollectionEntry<"articles">;
+}
+
+const { article } = Astro.props;
+const { Content } = await render(article);
+---
+
+<BaseLayout title={article.data.title} description={article.data.description} type="article">
+  <article class="page folio-page article-page">
+    <FolioMark number={article.data.publishedAt.getUTCFullYear().toString()} label="Entry" />
+    <div class="folio-body">
+      <header class="article-header">
+        <div class="article-dates">
+          <span>Published <FormattedDate date={article.data.publishedAt} /></span>
+          {
+            article.data.updatedAt && article.data.updatedAt.valueOf() !== article.data.publishedAt.valueOf() && (
+              <span>Revised <FormattedDate date={article.data.updatedAt} /></span>
+            )
+          }
+          {article.data.draft && <span class="draft-label">Draft</span>}
+        </div>
+        <h1>{article.data.title}</h1>
+        <p class="article-dek">{article.data.description}</p>
+      </header>
+
+      <div class="prose">
+        <Content />
+      </div>
+
+      <footer class="article-footer">
+        <a href="/writing/"><span aria-hidden="true">←</span> Return to the index</a>
+      </footer>
+    </div>
+  </article>
+</BaseLayout>
