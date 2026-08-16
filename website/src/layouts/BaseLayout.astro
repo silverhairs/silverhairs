@@ -1,0 +1,97 @@
+---
+import SiteFooter from "../components/SiteFooter.astro";
+import SiteHeader from "../components/SiteHeader.astro";
+import "@fontsource/ibm-plex-mono/latin-400.css";
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description: string;
+  type?: "website" | "article";
+}
+
+const { title, description, type = "website" } = Astro.props;
+const pageTitle = title === "Boris Kayi" ? title : `${title} — Boris Kayi`;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate" type="application/rss+xml" title="Boris Kayi's writing" href="/rss.xml" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content="Boris Kayi" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta name="twitter:card" content="summary" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <SiteHeader />
+    <main id="main-content">
+      <slot />
+    </main>
+    <SiteFooter />
+    <script is:inline>
+      const copyIcon = `
+        <svg class="copy-code__copy-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+          <path d="M9 9h10v10H9zM5 15H4V4h11v1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" />
+        </svg>
+        <svg class="copy-code__check-icon" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false">
+          <path d="m5 12 4 4L19 6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="square" stroke-linejoin="miter" />
+        </svg>
+      `;
+
+      document.querySelectorAll(".prose pre.astro-code").forEach((pre) => {
+        if (pre.parentElement?.classList.contains("code-block")) return;
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "code-block";
+        pre.before(wrapper);
+        wrapper.append(pre);
+
+        const button = document.createElement("button");
+        button.className = "copy-code";
+        button.type = "button";
+        button.title = "Copy code";
+        button.setAttribute("aria-label", "Copy code");
+        button.dataset.copyCode = "";
+        button.innerHTML = copyIcon;
+        wrapper.append(button);
+      });
+
+      document.addEventListener("click", async (event) => {
+        if (!(event.target instanceof Element)) return;
+        const button = event.target.closest("[data-copy-code]");
+        if (!(button instanceof HTMLButtonElement)) return;
+
+        const code = button.closest(".code-block")?.querySelector("pre code");
+        if (!code) return;
+
+        try {
+          await navigator.clipboard.writeText(code.textContent ?? "");
+          button.dataset.copied = "true";
+          button.title = "Copied";
+          button.setAttribute("aria-label", "Copied");
+
+          window.setTimeout(() => {
+            delete button.dataset.copied;
+            button.title = "Copy code";
+            button.setAttribute("aria-label", "Copy code");
+          }, 1800);
+        } catch {
+          button.title = "Unable to copy";
+          button.setAttribute("aria-label", "Unable to copy code");
+        }
+      });
+    </script>
+  </body>
+</html>

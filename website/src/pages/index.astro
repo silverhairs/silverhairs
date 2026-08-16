@@ -1,0 +1,39 @@
+---
+import ArticleList from "../components/ArticleList.astro";
+import FolioMark from "../components/FolioMark.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getArticles } from "../lib/articles";
+
+const articles = (await getArticles()).slice(0, 5);
+---
+
+<BaseLayout
+  title="Boris Kayi"
+  description="Boris Kayi writes about software, books, energy, urbanism, and things noticed along the way."
+>
+  <div class="page folio-page home-page">
+    <FolioMark number="00" label="Index" />
+    <div class="folio-body">
+      <section class="home-intro" aria-labelledby="home-heading">
+        <h1 id="home-heading">Boris Kayi</h1>
+        <p>
+          I’m a software engineer at <a href="https://enpal.com">Enpal</a>, working on energy hardware
+          integration. I also read, build toy compilers, and follow whatever has my attention.
+        </p>
+        <p class="home-note">
+          I use this site to write down what comes to mind and what I notice. That might be software one
+          day, a book or a street the next.
+        </p>
+      </section>
+
+      <section class="index-section" aria-labelledby="recent-writing">
+        <div class="section-heading">
+          <h2 id="recent-writing">Latest entries</h2>
+          <p>Reverse chronological / <a href="/rss.xml">RSS</a></p>
+        </div>
+        <ArticleList articles={articles} />
+        <a class="archive-link" href="/writing/">Open the full index <span aria-hidden="true">→</span></a>
+      </section>
+    </div>
+  </div>
+</BaseLayout>

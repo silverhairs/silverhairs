@@ -1,0 +1,13 @@
+---
+interface Props {
+  label: string;
+  number: string;
+}
+
+const { label, number } = Astro.props;
+---
+
+<aside class="folio-mark" aria-hidden="true">
+  <span>{number}</span>
+  <span>{label}</span>
+</aside>

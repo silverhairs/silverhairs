@@ -1,0 +1,40 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import FolioMark from "../components/FolioMark.astro";
+---
+
+<BaseLayout
+  title="About"
+  description="About Boris Kayi, a software engineer working on energy hardware integration."
+>
+  <div class="page folio-page">
+    <FolioMark number="02" label="About" />
+    <div class="folio-body">
+      <header class="page-header">
+        <h1>About</h1>
+      </header>
+
+      <article class="prose about-copy">
+        <p>
+          I’m Boris Kayi, a software engineer with experience building products and developer tools. I
+          currently work at <a href="https://enpal.com">Enpal</a> as a Senior Software Engineer, focused on
+          energy hardware integration.
+        </p>
+        <p>
+          Away from work, I spend much of my time reading or building toy compilers. My interests wander:
+          recently that has included energy, urbanism, books, software, and the unnoticed details between
+          them. This site is where I write those things down.
+        </p>
+        <p>
+          Code and small experiments live on <a href="https://github.com/silverhairs" rel="me">GitHub</a>.
+          New entries are also available through <a href="/rss.xml">RSS</a>.
+        </p>
+      </article>
+
+      <aside class="margin-note" aria-label="Current preoccupations">
+        <strong>Current preoccupations</strong>
+        <span>books / energy / urbanism / software / toy compilers</span>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>
