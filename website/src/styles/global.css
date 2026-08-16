@@ -711,8 +711,17 @@ h4 {
   margin: 0;
 }
 
+.footer-copy {
+  display: grid;
+  gap: 0.2rem;
+}
+
 .footer-id {
   color: var(--muted);
+}
+
+.footer-license a {
+  color: inherit;
 }
 
 .site-footer nav {
