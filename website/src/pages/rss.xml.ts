@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
   const articles = await getArticles({ includeDrafts: false });
 
   return rss({
-    title: "Boris Kayi’s writing",
+    title: "Boris Kayiranga’s writing",
     description: "Essays and notes about books, software, energy, urbanism, and everyday observations.",
     site: context.site ?? "https://silverhairs.dev",
     items: articles.map((article) => ({
